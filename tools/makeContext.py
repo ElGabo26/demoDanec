@@ -8,8 +8,8 @@ from openai import OpenAI
 
 
 # --- cargar índice ---
-INDEX_FILE = "./workspace/demoDanec/tools/kb_index.npz"
-META_FILE = "./workspace/demoDanec/tools/kb_meta.json"
+INDEX_FILE = "./demoDanec/tools/kb_index.npz"
+META_FILE = "./demoDanec/tools/kb_meta.json"
 
 data = np.load(INDEX_FILE)
 embeddings = data["embeddings"]  # shape: (N, dim)
