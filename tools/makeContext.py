@@ -54,7 +54,7 @@ def limpiar_respuesta_deepseek(texto):
 
 
 
-with open("./workspace/demoDanec/tools/instruccions.txt", "r", encoding="utf-8") as f:
+with open("/workspace/demoDanec/tools/instruccions.txt", "r", encoding="utf-8") as f:
         instruccions = f.read()
     
 def build_prompt(question):
