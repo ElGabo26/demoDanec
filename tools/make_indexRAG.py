@@ -5,7 +5,7 @@ import numpy as np
 from functionsContext import split_text, embed_texts
 from readDocumentsPath  import get_file_content_from_path
 
-DOCS_FOLDER = "./tools/context"
+DOCS_FOLDER = "./workspace/demoDanec/tools/context"
 INDEX_FILE = "kb_index.npz"   # archivo donde se guarda el índice
 META_FILE = "kb_meta.json"    # metadatos con textos y origen
 
